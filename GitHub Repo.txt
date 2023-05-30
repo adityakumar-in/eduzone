@@ -1,0 +1,3 @@
+https://github.com/adityakumar-in/eduzone
+
+Node Modules is not Included in this folder kindly run this - 'npm run' to install it, as it is required to run the website
