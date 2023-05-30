@@ -1,0 +1,122 @@
+{
+    "1": {
+        "title": "A Digit Media Primer",
+        "description": "A Digit Media Primer for Geeks is an engaging and informative exploration of the fascinating world of digital media. This primer delves into the intricate workings and concepts behind various digital media technologies",
+        "videoUrl": "https://ftp.gnu.org/video/A_Digital_Media_Primer_For_Geeks-480p.webm"
+      },
+    "2": {
+        "title": "Structure of a Compiler",
+        "description": "A compiler is a crucial software tool that translates high-level programming code into a lower-level representation, typically machine code, enabling the efficient execution of programs. By performing lexical analysis, syntax parsing, semantic analysis",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/01-02-structure-of-a-compiler.mp4"
+      },
+    "3": {
+        "title": "The Economy of Programming Languages",
+        "description": "The economy of programming languages refers to the overall impact and influence that programming languages have on various economic aspects. It play a significant role in shaping the software development industry",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/01-03-the-economy-of-programming-languages.mp4"
+      },
+    "4": {
+        "title": "Regular Languages",
+        "description": "Regular languages are a fundamental concept in formal language theory and theoretical computer science. They represent a class of languages that can be described and recognized by regular expressions or deterministic finite automata (DFAs).",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/03-03-regular-languages.mp4"
+      },
+    "5": {
+        "title": "Formal Languages",
+        "description": "Formal languages are a fundamental concept in computer science and mathematics. They provide a structured and precise way to describe sets of strings or symbols according to a set of rules or grammar.",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/03-04-formal-languages.mp4"
+      },
+    "6": {
+        "title": "Finite Automata",
+        "description": "Finite automata, also known as finite state machines, are computational models used to recognize and process patterns in strings or sequences. They are widely used in various fields, including formal language theory",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/04-02-finite-automata.mp4"
+      },
+    "7": {
+        "title": "Regular Expression to NFAs",
+        "description": "It's worth noting that the resulting NFA may contain epsilon transitions (transitions without consuming input symbols) and multiple possible transitions for a given state and input symbol. These characteristics distinguish NFAs from deterministic finite automata (DFAs).",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/04-03-regular-expressions-to-nfas.mp4"
+      },
+    "8": {
+        "title": "NFA to DFA",
+        "description": "To convert a nondeterministic finite automaton (NFA) to a deterministic finite automaton (DFA), you can use the subset construction algorithm. This algorithm systematically explores the reachable states of the NFA to construct the corresponding DFA.",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/04-04-nfa-to-dfa.mp4"
+      },
+    "9": {
+        "title": "Implementing Finite Automata",
+        "description": "A DFA consists of a finite set of states, a set of input symbols, a transition function, a start state, and a set of accepting states. The transition function defines how the automaton moves from one state to another based on the current state and input symbol.",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/04-05-implementing-finite-automata.mp4"
+      },
+    "10": {
+        "title": "Reference Counting",
+        "description": "Reference counting is a technique used in programming languages to automatically manage memory deallocation by keeping track of the number of references to an object. The basic idea is to assign a reference count to each object.",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/17-05-reference-counting.mp4"
+      },
+    "11": {
+        "title": "Introduction to Parsing",
+        "description": "Parsing is a fundamental process in computer science that involves analyzing and interpreting the structure of a given input according to a specific grammar or syntax. It is commonly used in various fields, such as programming languages",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/05-01-introduction-to-parsing.mp4"
+      },
+    "12": {
+        "title": "Context-Free Grammers",
+        "description": "A context-free grammar (CFG) is a formal grammar that describes a formal language in terms of a set of production rules. It is widely used in computer science and linguistics to define the syntax of programming languages",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/05-02-context-free-grammars.mp4"
+      },
+    "13": {
+        "title": "Ambiguity",
+        "description": "Ambiguity, in the context of context-free grammars (CFGs), refers to a situation where a given grammar can produce more than one valid parse tree for a specific input string. It means that the grammar's rules are not sufficient to uniquely determine",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/05-04-ambiguity.mp4"
+      },
+    "14": {
+        "title": "Error Handling",
+        "description": "Error handling is an important aspect of software development that involves detecting, reporting, and managing errors or exceptional situations that may occur during the execution of a program. ",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/06-01-error-handling.mp4"
+      },
+    "15": {
+        "title": "Type Checking",
+        "description": "Type checking is a process performed by programming languages or compilers to verify the compatibility and consistency of types used in a program. It helps ensure that operations are performed on appropriate data types",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/09-05-type-checking.mp4"
+      },
+    "16": {
+        "title": "Static vs Dynamic Typing",
+        "description": "Static typing and dynamic typing are two different approaches to type checking in programming languages. They determine when and how type checking is performed during the development and execution of a program.",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/10-01-static-vs-dynamic-typing.mp4"
+      },
+    "17": {
+        "title": "Error Recovery",
+        "description": "Error recovery is a mechanism employed in software development to handle and manage errors or exceptional situations that may occur during the execution of a program. It involves taking appropriate actions to gracefully handle errors",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/10-06-error-recovery.mp4"
+      },
+    "18": {
+        "title": "Graph Coloring",
+        "description": "Graph coloring is a problem in graph theory that involves assigning colors to the vertices of a graph such that no two adjacent vertices have the same color. The goal is to color the graph using the fewest number of colors possible",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/16-02-graph-coloring.mp4"
+      },
+    "19": {
+        "title": "Activations",
+        "description": "In the context of neural networks and deep learning, activations refer to the output values of individual neurons or units in a neural network layer. They represent the \"activated\" or transformed values of the input signals received by the neurons.",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/11-02-activations.mp4"
+      },
+    "20": {
+        "title": "Activation Records",
+        "description": "Activation records, also known as stack frames or call frames, are data structures used by programming languages and compilers to manage the execution of functions or procedures. Each activation record corresponds to an invocation of a function",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/11-03-activation-records.mp4"
+      },
+    "21": {
+        "title": "Global and Heap",
+        "description": "Global memory is a space for storing variables with global scope that are accessible throughout the program, while heap memory is a region used for dynamic memory allocation and deallocation during program execution.",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/11-04-globals-and-heap.mp4"
+      },
+    "22": {
+        "title": "Stack Machines",
+        "description": "A stack machine is a type of computer architecture in which all operations are performed using a stack data structure. It is a common design choice for some programming languages and virtual machines, especially in the context of interpreters or bytecode execution environments.",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/11-06-stack-machines.mp4"
+      },
+    "23": {
+        "title": "Managing Caches",
+        "description": "Managing caches is an important aspect of computer systems and memory hierarchies to improve performance by reducing memory access latency. Caches are small, fast memory units that store frequently accessed data or instructions",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/16-04-managing-caches.mp4"
+      },
+    "24": {
+        "title": "Automatic Memory Management",
+        "description": "Automatic memory management, also known as garbage collection, is a feature provided by many programming languages and runtime environments to automatically allocate and deallocate memory without explicit manual intervention from the developer",
+        "videoUrl": "http://openclassroom.stanford.edu/MainFolder/courses/Compilers/videos/17-01-automatic-memory-management.mp4"
+      }
+}

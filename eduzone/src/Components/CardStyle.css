@@ -1,0 +1,60 @@
+.card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: height 0.3s;
+    margin: 20px 15px;
+  }
+  
+  .card.expanded {
+    height: 500px;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 16px;
+  }
+  
+  .video-container {
+    position: relative;
+  }
+  
+  .video {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .video.expanded {
+    transform: scale(1.2);
+  }
+  
+  .video-container.playing .expand-button {
+    display: none;
+  }
+  
+  .expand-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 24px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  

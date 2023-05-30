@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "ubuntu";
+  font-family: 'Poppins', sans-serif;
+}
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+.con {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  background: #0b2239;
+  width: 100%;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 140px;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu ul {
+  display: flex;
+}
+
+.nav-menu ul li {
+  margin-right: 20px;
+}
+
+.nav-menu .nav-link {
+  color: #cfd9e0;
+}
+
+.nav-menu .nav-link:hover,
+.nav-menu .nav-link.active {
+  color: #fff;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.hamburger {
+  margin-left: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger div {
+  width: 30px;
+  height: 2px;
+  margin: 6px 0;
+  background: #fff;
+}
+
+.hamburger.open div {
+  background: #cfd9e0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .con {
+    padding: 0 20px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-menu.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #0b2239;
+    padding: 30px;
+    transition: 0.3s;
+    text-align: center;
+    z-index: 1;
+  }
+}
+.nav-link {
+  color: #cfd9e0; /* Change the color to your desired value */
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #fff; /* Change the hover and active color to your desired value */
+}
